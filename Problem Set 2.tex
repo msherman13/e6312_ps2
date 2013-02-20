@@ -22,13 +22,13 @@
 
 \section{Problem 1: Intrinsic Capacitances}
 \subsection{$C_{gs}$}
-I measured the values for the gate to source capacitance using both DC operating point simulation as well as AC Analysis. To acquire the necessary DC operating simulation I first constructed the circuit shown in Figure \ref{1_dc_schem}. This circuit allows utilizes an nMOS transistor with $W/L = 1\mu m/180nm$. I ran a DC simulation on the circuit sweeping $V_{DS}$ from 0V to 1.8V and outputting drain current with $V_{GS}$ = 0.8V. Using the results browser I then plotted $C_{gs}$ against $V_{DS}$ (Figure ).
+I measured the values for the gate to source capacitance using both DC operating point simulation as well as AC Analysis. To acquire the necessary DC operating simulation I first constructed the circuit shown in Figure \ref{1_dc_schem}. This circuit allows utilizes an nMOS transistor with $W/L = 1\mu m/180nm$. I ran a DC simulation on the circuit sweeping $V_{DS}$ from 0V to 1.8V and outputting drain current with $V_{GS}$ = 0.8V. Using the results browser I then plotted $C_{gs}$ (minus $C_{gs-overlap}$) against $V_{DS}$ (Figure \ref{1a}).
 
 My next step was to attempt to attain the same measurements of $C_{gs}$ using the method of AC analysis. To do this, I began by constructing the circuit shown in Figure \ref{1_ac_schem} (note that the two AC voltage sources are toggled on/off in the simulating environment). My goal in this simulation was to isolate $C_{gs}$ and utilize the capacitance equation
 \begin{equation}
 C = \frac{i_c}{2\pi fv_c}
 \end{equation}
-to plot $C_{gs}$. I applied an AC signal of 10mV amplitude and low frequency to the source of the device. I then plotted the current into the gate of the device while sweeping $V_{DS}$. Even though the current at the gate flows to $C_{gs}$ and $C_{gd}$, because the AC voltage is on the source, AC current flows through $C_{gs}$ but not $C_{gd}$. Utilizing equation 1 as well as the overlap capacitance which was acquired from the results browser, I was able to plot $C_{gs}$ against $V_{DS}$ (Figure \ref{1d}). As is expected in both of my plots, $C_{gs}$ begins at approximately $C_{OX}/2$ ($C_{OX} ~= 1.5fF$), rises steadily at low values of $V_{DS}$, and saturates at approximately $\frac{2}{3} C_{OX}$ once $V_{DS} > V_{DS-SAT}$.
+to plot $C_{gs}$. I applied an AC signal of 10mV amplitude and low frequency to the source of the device. I then plotted the current into the gate of the device while sweeping $V_{DS}$. Even though the current at the gate flows to $C_{gs}$ and $C_{gd}$, because the AC voltage is on the source, AC current flows through $C_{gs}$ but not $C_{gd}$. Utilizing equation 1 as well as the overlap capacitance which was acquired from the results browser, I was able to plot $C_{gs}$ against $V_{DS}$ (Figure \ref{1d}). As is expected in both of my plots, $C_{gs}$ begins at approximately $C_{OX}/2$ ($C_{OX} ~= 1.5fF$). However, one would expect the plots to saturate at $\frac{2}{3} C_{OX}$ for values of $V_{DS}$ greater than $V_{DS-SAT}$. This is not the case in my plots and I attribute this to short-comings in the model file.
 
 \begin{figure}[H]
 \centering
@@ -44,12 +44,12 @@ to plot $C_{gs}$. I applied an AC signal of 10mV amplitude and low frequency to 
 \label{1_ac_schem}
 \end{figure}
 
-%\begin{figure}[H]
-%\centering
-%\includegraphics[width=5in]{1d.png}
-%\caption{$C_{gs}$ vs. $V_{DS}$ as Determined by DC Operating Point Simulation}
-%\label{1d}
-%\end{figure}
+\begin{figure}[H]
+\centering
+\includegraphics[width=5in]{1a.png}
+\caption{$C_{gs}$ vs. $V_{DS}$ as Determined by DC Operating Point Simulation}
+\label{1a}
+\end{figure}
 
 \begin{figure}[H]
 \centering
