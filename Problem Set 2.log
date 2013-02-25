@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 FEB 2013 00:45
+This is pdfTeX, Version 3.1415926-2.4-1.40.13 (TeX Live 2012) (format=pdflatex 2012.6.30)  25 FEB 2013 01:14
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -285,11 +285,7 @@ e
 File: 1_dc_schematic.png Graphic file (type png)
  <use 1_dc_schematic.png>
 Package pdftex.def Info: 1_dc_schematic.png used on input line 35.
-(pdftex.def)             Requested size: 505.89pt x 182.34372pt.
-
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 35--36
- [][] 
- []
+(pdftex.def)             Requested size: 433.62pt x 156.29176pt.
 
 [1
 
@@ -298,11 +294,7 @@ Overfull \hbox (14.45213pt too wide) in paragraph at lines 35--36
 File: 1_ac_schematic.png Graphic file (type png)
  <use 1_ac_schematic.png>
 Package pdftex.def Info: 1_ac_schematic.png used on input line 42.
-(pdftex.def)             Requested size: 505.89pt x 230.701pt.
-
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 42--43
- [][] 
- []
+(pdftex.def)             Requested size: 433.62pt x 197.74203pt.
 
 <1a.png, id=20, 1203.49625pt x 698.61pt>
 File: 1a.png Graphic file (type png)
@@ -346,173 +338,185 @@ File: 2_cs_schematic.png Graphic file (type png)
 
 <use 2_cs_schematic.png>
 Package pdftex.def Info: 2_cs_schematic.png used on input line 112.
-(pdftex.def)             Requested size: 505.89pt x 305.82487pt.
-
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 112--113
- [][] 
- []
-
-[6] <2_cs_dcop.png, id=45, 755.9442pt x 457.4691pt>
+(pdftex.def)             Requested size: 433.62pt x 262.14041pt.
+ <2_cs_dcop.png, id=41, 755.9442pt x 457.4691pt>
 File: 2_cs_dcop.png Graphic file (type png)
- <use 2_cs_dcop.png>
+
+<use 2_cs_dcop.png>
 Package pdftex.def Info: 2_cs_dcop.png used on input line 119.
-(pdftex.def)             Requested size: 505.89pt x 306.1467pt.
+(pdftex.def)             Requested size: 433.62pt x 262.40747pt.
+ [6 <./2_cs_schematic.png>]
+<2_cs_dcop_ff.png, id=47, 755.9442pt x 457.4691pt>
+File: 2_cs_dcop_ff.png Graphic file (type png)
+ <use 2_cs_dcop_ff.png>
+Package pdftex.def Info: 2_cs_dcop_ff.png used on input line 126.
+(pdftex.def)             Requested size: 433.62pt x 262.40747pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 119--120
- [][] 
- []
+<2_cs_dcop_ss.png, id=48, 755.9442pt x 457.4691pt>
+File: 2_cs_dcop_ss.png Graphic file (type png)
+ <use 2_cs_dcop_ss.png>
+Package pdftex.def Info: 2_cs_dcop_ss.png used on input line 133.
+(pdftex.def)             Requested size: 433.62pt x 262.40747pt.
 
-[7 <./2_cs_schematic.png>] <2_cs_gain_tt.png, id=51, 1606.0pt x 1048.91875pt>
+[7 <./2_cs_dcop.png> <./2_cs_dcop_ff.png>]
+<2_cs_gain_tt.png, id=55, 1606.0pt x 1048.91875pt>
 File: 2_cs_gain_tt.png Graphic file (type png)
-
-<use 2_cs_gain_tt.png>
-Package pdftex.def Info: 2_cs_gain_tt.png used on input line 126.
+ <use 2_cs_gain_tt.png>
+Package pdftex.def Info: 2_cs_gain_tt.png used on input line 140.
 (pdftex.def)             Requested size: 361.34999pt x 235.99654pt.
- <2_cs_gain_ff.png, id=52, 1606.0pt x 1048.91875pt>
-File: 2_cs_gain_ff.png Graphic file (type png)
 
-<use 2_cs_gain_ff.png>
-Package pdftex.def Info: 2_cs_gain_ff.png used on input line 133.
+<2_cs_gain_ff.png, id=56, 1606.0pt x 1048.91875pt>
+File: 2_cs_gain_ff.png Graphic file (type png)
+ <use 2_cs_gain_ff.png>
+Package pdftex.def Info: 2_cs_gain_ff.png used on input line 147.
 (pdftex.def)             Requested size: 433.62pt x 283.21184pt.
- [8 <./2_cs_dcop.png> <./2_cs_gain_tt.png (PNG copy)>]
-<2_cs_gain_ss.png, id=57, 1606.0pt x 1048.91875pt>
+
+[8 <./2_cs_dcop_ss.png> <./2_cs_gain_tt.png (PNG copy)>]
+<2_cs_gain_ss.png, id=61, 1606.0pt x 1048.91875pt>
 File: 2_cs_gain_ss.png Graphic file (type png)
  <use 2_cs_gain_ss.png>
-Package pdftex.def Info: 2_cs_gain_ss.png used on input line 140.
+Package pdftex.def Info: 2_cs_gain_ss.png used on input line 154.
 (pdftex.def)             Requested size: 433.62pt x 283.21184pt.
 
 [9 <./2_cs_gain_ff.png (PNG copy)> <./2_cs_gain_ss.png (PNG copy)>]
-<2_cs_transient.png, id=61, 1606.0pt x 1048.91875pt>
+<2_cs_transient.png, id=65, 1606.0pt x 1048.91875pt>
 File: 2_cs_transient.png Graphic file (type png)
  <use 2_cs_transient.png>
-Package pdftex.def Info: 2_cs_transient.png used on input line 149.
-(pdftex.def)             Requested size: 505.89pt x 330.41115pt.
+Package pdftex.def Info: 2_cs_transient.png used on input line 163.
+(pdftex.def)             Requested size: 433.62pt x 283.21184pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 149--150
- [][] 
- []
-
-<2_cs_linearity.png, id=62, 1606.0pt x 1048.91875pt>
+<2_cs_linearity.png, id=66, 1606.0pt x 1048.91875pt>
 File: 2_cs_linearity.png Graphic file (type png)
  <use 2_cs_linearity.png>
-Package pdftex.def Info: 2_cs_linearity.png used on input line 156.
-(pdftex.def)             Requested size: 505.89pt x 330.41115pt.
-
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 156--157
- [][] 
- []
+Package pdftex.def Info: 2_cs_linearity.png used on input line 170.
+(pdftex.def)             Requested size: 433.62pt x 283.21184pt.
 
 [10 <./2_cs_transient.png (PNG copy)>] [11 <./2_cs_linearity.png>]
-<2_cd_schematic.png, id=70, 701.7417pt x 456.0237pt>
+<2_cd_schematic.png, id=74, 701.7417pt x 456.0237pt>
 File: 2_cd_schematic.png Graphic file (type png)
  <use 2_cd_schematic.png>
-Package pdftex.def Info: 2_cd_schematic.png used on input line 177.
-(pdftex.def)             Requested size: 505.89pt x 328.7543pt.
+Package pdftex.def Info: 2_cd_schematic.png used on input line 191.
+(pdftex.def)             Requested size: 433.62pt x 281.79239pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 177--178
- [][] 
- []
-
-[12] <2_cd_dcop.png, id=76, 701.7417pt x 456.0237pt>
+[12] <2_cd_dcop.png, id=80, 701.7417pt x 456.0237pt>
 File: 2_cd_dcop.png Graphic file (type png)
  <use 2_cd_dcop.png>
-Package pdftex.def Info: 2_cd_dcop.png used on input line 184.
-(pdftex.def)             Requested size: 505.89pt x 328.7543pt.
+Package pdftex.def Info: 2_cd_dcop.png used on input line 198.
+(pdftex.def)             Requested size: 433.62pt x 281.79239pt.
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 184--185
- [][] 
- []
+<2_cd_dcop_ff.png, id=81, 701.7417pt x 456.0237pt>
+File: 2_cd_dcop_ff.png Graphic file (type png)
+ <use 2_cd_dcop_ff.png>
+Package pdftex.def Info: 2_cd_dcop_ff.png used on input line 205.
+(pdftex.def)             Requested size: 433.62pt x 281.79239pt.
 
-[13 <./2_cd_schematic.png>] <2_cd_gain_tt.png, id=82, 1203.49625pt x 698.61pt>
+[13 <./2_cd_schematic.png> <./2_cd_dcop.png>]
+<2_cd_dcop_ss.png, id=88, 701.7417pt x 456.0237pt>
+File: 2_cd_dcop_ss.png Graphic file (type png)
+ <use 2_cd_dcop_ss.png>
+Package pdftex.def Info: 2_cd_dcop_ss.png used on input line 212.
+(pdftex.def)             Requested size: 433.62pt x 281.79239pt.
+
+<2_cd_gain_tt.png, id=89, 1203.49625pt x 698.61pt>
 File: 2_cd_gain_tt.png Graphic file (type png)
-
-<use 2_cd_gain_tt.png>
-Package pdftex.def Info: 2_cd_gain_tt.png used on input line 191.
+ <use 2_cd_gain_tt.png>
+Package pdftex.def Info: 2_cd_gain_tt.png used on input line 219.
 (pdftex.def)             Requested size: 361.34999pt x 209.75517pt.
- <2_cd_gain_ff.png, id=83, 1203.49625pt x 698.61pt>
-File: 2_cd_gain_ff.png Graphic file (type png)
 
-<use 2_cd_gain_ff.png>
-Package pdftex.def Info: 2_cd_gain_ff.png used on input line 198.
+[14 <./2_cd_dcop_ff.png> <./2_cd_dcop_ss.png>]
+<2_cd_gain_ff.png, id=95, 1203.49625pt x 698.61pt>
+File: 2_cd_gain_ff.png Graphic file (type png)
+ <use 2_cd_gain_ff.png>
+Package pdftex.def Info: 2_cd_gain_ff.png used on input line 226.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
- [14 <./2_cd_dcop.png> <./2_cd_gain_tt.png (PNG copy)>]
-<2_cd_gain_ss.png, id=88, 1203.49625pt x 698.61pt>
+
+<2_cd_gain_ss.png, id=96, 1203.49625pt x 698.61pt>
 File: 2_cd_gain_ss.png Graphic file (type png)
  <use 2_cd_gain_ss.png>
-Package pdftex.def Info: 2_cd_gain_ss.png used on input line 205.
+Package pdftex.def Info: 2_cd_gain_ss.png used on input line 233.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
 
-<2_cd_transient.png, id=89, 1203.49625pt x 698.61pt>
+[15 <./2_cd_gain_tt.png (PNG copy)> <./2_cd_gain_ff.png (PNG copy)>]
+<2_cd_transient.png, id=100, 1203.49625pt x 698.61pt>
 File: 2_cd_transient.png Graphic file (type png)
  <use 2_cd_transient.png>
-Package pdftex.def Info: 2_cd_transient.png used on input line 212.
+Package pdftex.def Info: 2_cd_transient.png used on input line 240.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
 
-[15 <./2_cd_gain_ff.png (PNG copy)> <./2_cd_gain_ss.png (PNG copy)>]
-<2_cd_linearity.png, id=93, 1203.49625pt x 698.61pt>
+<2_cd_linearity.png, id=101, 1203.49625pt x 698.61pt>
 File: 2_cd_linearity.png Graphic file (type png)
  <use 2_cd_linearity.png>
-Package pdftex.def Info: 2_cd_linearity.png used on input line 219.
+Package pdftex.def Info: 2_cd_linearity.png used on input line 247.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
 
-[16 <./2_cd_transient.png (PNG copy)> <./2_cd_linearity.png (PNG copy)>]
-<2_cas_schematic.png, id=97, 658.3797pt x 457.4691pt>
+[16 <./2_cd_gain_ss.png (PNG copy)> <./2_cd_transient.png (PNG copy)>] [17 <./2
+_cd_linearity.png (PNG copy)>]
+<2_cas_schematic.png, id=108, 658.3797pt x 457.4691pt>
 File: 2_cas_schematic.png Graphic file (type png)
 
 <use 2_cas_schematic.png>
-Package pdftex.def Info: 2_cas_schematic.png used on input line 240.
+Package pdftex.def Info: 2_cas_schematic.png used on input line 268.
 (pdftex.def)             Requested size: 433.62pt x 301.29532pt.
- [17]
-<2_cas_dcop.png, id=101, 658.3797pt x 457.4691pt>
+ [18]
+<2_cas_dcop.png, id=112, 658.3797pt x 457.4691pt>
 File: 2_cas_dcop.png Graphic file (type png)
  <use 2_cas_dcop.png>
-Package pdftex.def Info: 2_cas_dcop.png used on input line 247.
-(pdftex.def)             Requested size: 505.89pt x 351.51237pt.
+Package pdftex.def Info: 2_cas_dcop.png used on input line 275.
+(pdftex.def)             Requested size: 433.62pt x 301.29532pt.
+ [19 <./2_cas_schematic.png>] <2_cas_dcop_ff.png, id=118, 658.3797pt x 457.4691
+pt>
+File: 2_cas_dcop_ff.png Graphic file (type png)
 
-Overfull \hbox (14.45213pt too wide) in paragraph at lines 247--248
- [][] 
- []
+<use 2_cas_dcop_ff.png>
+Package pdftex.def Info: 2_cas_dcop_ff.png used on input line 282.
+(pdftex.def)             Requested size: 433.62pt x 301.29532pt.
+ [20 <./2_cas_dcop.png>]
+<2_cas_dcop_ss.png, id=123, 658.3797pt x 457.4691pt>
+File: 2_cas_dcop_ss.png Graphic file (type png)
+ <use 2_cas_dcop_ss.png>
+Package pdftex.def Info: 2_cas_dcop_ss.png used on input line 289.
+(pdftex.def)             Requested size: 433.62pt x 301.29532pt.
 
-[18 <./2_cas_schematic.png>]
-<2_cas_gain_tt.png, id=106, 1203.49625pt x 698.61pt>
+[21 <./2_cas_dcop_ff.png>]
+<2_cas_gain_tt.png, id=128, 1203.49625pt x 698.61pt>
 File: 2_cas_gain_tt.png Graphic file (type png)
  <use 2_cas_gain_tt.png>
-Package pdftex.def Info: 2_cas_gain_tt.png used on input line 254.
+Package pdftex.def Info: 2_cas_gain_tt.png used on input line 296.
 (pdftex.def)             Requested size: 361.34999pt x 209.75517pt.
 
-<2_cas_gain_ff.png, id=107, 1203.49625pt x 698.61pt>
+<2_cas_gain_ff.png, id=129, 1203.49625pt x 698.61pt>
 File: 2_cas_gain_ff.png Graphic file (type png)
  <use 2_cas_gain_ff.png>
-Package pdftex.def Info: 2_cas_gain_ff.png used on input line 261.
+Package pdftex.def Info: 2_cas_gain_ff.png used on input line 303.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
 
-[19 <./2_cas_dcop.png> <./2_cas_gain_tt.png (PNG copy)>]
-<2_cas_gain_ss.png, id=113, 1203.49625pt x 698.61pt>
+[22 <./2_cas_dcop_ss.png> <./2_cas_gain_tt.png (PNG copy)>]
+<2_cas_gain_ss.png, id=134, 1203.49625pt x 698.61pt>
 File: 2_cas_gain_ss.png Graphic file (type png)
  <use 2_cas_gain_ss.png>
-Package pdftex.def Info: 2_cas_gain_ss.png used on input line 268.
+Package pdftex.def Info: 2_cas_gain_ss.png used on input line 310.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
 
-<2_cas_transient.png, id=114, 1203.49625pt x 698.61pt>
+<2_cas_transient.png, id=135, 1203.49625pt x 698.61pt>
 File: 2_cas_transient.png Graphic file (type png)
 
 <use 2_cas_transient.png>
-Package pdftex.def Info: 2_cas_transient.png used on input line 275.
+Package pdftex.def Info: 2_cas_transient.png used on input line 317.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
- [20 <./2_cas_gain_ff.png (PNG copy)> <./2_cas_gain_ss.png (PNG copy)>] <2_cas_
-linearity.png, id=118, 1203.49625pt x 698.61pt>
+ [23 <./2_cas_gain_ff.png (PNG copy)> <./2_cas_gain_ss.png (PNG copy)>] <2_cas_
+linearity.png, id=139, 1203.49625pt x 698.61pt>
 File: 2_cas_linearity.png Graphic file (type png)
 
 <use 2_cas_linearity.png>
-Package pdftex.def Info: 2_cas_linearity.png used on input line 282.
+Package pdftex.def Info: 2_cas_linearity.png used on input line 324.
 (pdftex.def)             Requested size: 433.62pt x 251.7126pt.
- [21 <./2_cas_transient.png (PNG copy)> <./2_cas_linearity.png (PNG copy)>] (./
+ [24 <./2_cas_transient.png (PNG copy)> <./2_cas_linearity.png (PNG copy)>] (./
 Problem Set 2.aux) ) 
 Here is how much of TeX's memory you used:
- 2892 strings out of 493488
- 40029 string characters out of 3141326
- 104452 words of memory out of 3000000
- 6140 multiletter control sequences out of 15000+200000
+ 2928 strings out of 493488
+ 40707 string characters out of 3141326
+ 104510 words of memory out of 3000000
+ 6170 multiletter control sequences out of 15000+200000
  9167 words of font info for 34 fonts, out of 3000000 for 9000
  957 hyphenation exceptions out of 8191
  38i,6n,30p,1386b,223s stack positions out of 5000i,500n,10000p,200000b,50000s
@@ -530,10 +534,10 @@ b></usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><
 /usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb></
 usr/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy7.pfb></us
 r/local/texlive/2012/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb>
-Output written on "Problem Set 2.pdf" (21 pages, 702993 bytes).
+Output written on "Problem Set 2.pdf" (24 pages, 834313 bytes).
 PDF statistics:
- 167 PDF objects out of 1000 (max. 8388607)
- 91 compressed objects within 1 object stream
+ 188 PDF objects out of 1000 (max. 8388607)
+ 97 compressed objects within 1 object stream
  0 named destinations out of 1000 (max. 500000)
- 146 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 176 words of extra memory for PDF output out of 10000 (max. 10000000)
 
